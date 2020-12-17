@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animated text with typed.js</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="type"></div>
+
+	<script src="typed.js"></script>
+	<script type="text/javascript">
+		var typed = new Typed('.type', {
+			  strings: [
+			  "Hello, world!", 
+			  "My name is Artem, i like front-end development", 
+			  "Subscribe to our channel for more videos!",
+			  "typed.js is a very great library : )"
+			  ],
+			  typeSpeed: 50,
+			  backSpeed: 40,
+			  loop: true
+});
+
+	</script>
+</body>
+</html>
